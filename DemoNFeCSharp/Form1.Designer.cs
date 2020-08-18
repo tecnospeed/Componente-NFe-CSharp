@@ -121,14 +121,14 @@
             this.groupBox2.Size = new System.Drawing.Size(430, 231);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Operações";
+            this.groupBox2.Text = "OPERAÇÕES";
             // 
             // lblAmbiente
             // 
             this.lblAmbiente.AutoSize = true;
             this.lblAmbiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmbiente.ForeColor = System.Drawing.Color.Red;
-            this.lblAmbiente.Location = new System.Drawing.Point(129, 197);
+            this.lblAmbiente.Location = new System.Drawing.Point(143, 197);
             this.lblAmbiente.Name = "lblAmbiente";
             this.lblAmbiente.Size = new System.Drawing.Size(150, 13);
             this.lblAmbiente.TabIndex = 13;
@@ -137,7 +137,7 @@
             // 
             // btnConsultarNfe
             // 
-            this.btnConsultarNfe.Location = new System.Drawing.Point(258, 132);
+            this.btnConsultarNfe.Location = new System.Drawing.Point(304, 132);
             this.btnConsultarNfe.Name = "btnConsultarNfe";
             this.btnConsultarNfe.Size = new System.Drawing.Size(120, 23);
             this.btnConsultarNfe.TabIndex = 12;
@@ -147,7 +147,7 @@
             // 
             // btnConsultarRecibo
             // 
-            this.btnConsultarRecibo.Location = new System.Drawing.Point(258, 103);
+            this.btnConsultarRecibo.Location = new System.Drawing.Point(304, 103);
             this.btnConsultarRecibo.Name = "btnConsultarRecibo";
             this.btnConsultarRecibo.Size = new System.Drawing.Size(120, 23);
             this.btnConsultarRecibo.TabIndex = 11;
@@ -157,7 +157,7 @@
             // 
             // btnEnviarSincrono
             // 
-            this.btnEnviarSincrono.Location = new System.Drawing.Point(258, 74);
+            this.btnEnviarSincrono.Location = new System.Drawing.Point(304, 74);
             this.btnEnviarSincrono.Name = "btnEnviarSincrono";
             this.btnEnviarSincrono.Size = new System.Drawing.Size(120, 23);
             this.btnEnviarSincrono.TabIndex = 10;
@@ -167,7 +167,7 @@
             // 
             // btnEnviarNfe
             // 
-            this.btnEnviarNfe.Location = new System.Drawing.Point(132, 161);
+            this.btnEnviarNfe.Location = new System.Drawing.Point(159, 161);
             this.btnEnviarNfe.Name = "btnEnviarNfe";
             this.btnEnviarNfe.Size = new System.Drawing.Size(120, 23);
             this.btnEnviarNfe.TabIndex = 9;
@@ -177,7 +177,7 @@
             // 
             // btAssinarXml
             // 
-            this.btAssinarXml.Location = new System.Drawing.Point(132, 132);
+            this.btAssinarXml.Location = new System.Drawing.Point(159, 132);
             this.btAssinarXml.Name = "btAssinarXml";
             this.btAssinarXml.Size = new System.Drawing.Size(120, 23);
             this.btAssinarXml.TabIndex = 8;
@@ -187,7 +187,7 @@
             // 
             // btGerarXmlTx2
             // 
-            this.btGerarXmlTx2.Location = new System.Drawing.Point(132, 103);
+            this.btGerarXmlTx2.Location = new System.Drawing.Point(159, 103);
             this.btGerarXmlTx2.Name = "btGerarXmlTx2";
             this.btGerarXmlTx2.Size = new System.Drawing.Size(120, 23);
             this.btGerarXmlTx2.TabIndex = 7;
@@ -197,7 +197,7 @@
             // 
             // btGerarXmlDataset
             // 
-            this.btGerarXmlDataset.Location = new System.Drawing.Point(132, 74);
+            this.btGerarXmlDataset.Location = new System.Drawing.Point(159, 74);
             this.btGerarXmlDataset.Name = "btGerarXmlDataset";
             this.btGerarXmlDataset.Size = new System.Drawing.Size(120, 23);
             this.btGerarXmlDataset.TabIndex = 6;
@@ -283,7 +283,7 @@
             this.groupBox1.Size = new System.Drawing.Size(340, 225);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Informações";
+            this.groupBox1.Text = "INFORMAÇÕES";
             // 
             // CnpjSh
             // 
@@ -451,7 +451,7 @@
             this.btImprimirDanfe.Name = "btImprimirDanfe";
             this.btImprimirDanfe.Size = new System.Drawing.Size(120, 23);
             this.btImprimirDanfe.TabIndex = 5;
-            this.btImprimirDanfe.Text = "Imprimir Danfe";
+            this.btImprimirDanfe.Text = "Imprimir DANFE";
             this.btImprimirDanfe.UseVisualStyleBackColor = true;
             this.btImprimirDanfe.Click += new System.EventHandler(this.btImprimirDanfe_Click);
             // 
@@ -461,7 +461,7 @@
             this.btVisualizarDanfe.Name = "btVisualizarDanfe";
             this.btVisualizarDanfe.Size = new System.Drawing.Size(120, 23);
             this.btVisualizarDanfe.TabIndex = 4;
-            this.btVisualizarDanfe.Text = "Visualizar Danfe";
+            this.btVisualizarDanfe.Text = "Visualizar DANFE";
             this.btVisualizarDanfe.UseVisualStyleBackColor = true;
             this.btVisualizarDanfe.Click += new System.EventHandler(this.btVisualizarDanfe_Click);
             // 
@@ -471,7 +471,7 @@
             this.btEditarDanfe.Name = "btEditarDanfe";
             this.btEditarDanfe.Size = new System.Drawing.Size(120, 23);
             this.btEditarDanfe.TabIndex = 3;
-            this.btEditarDanfe.Text = "Editar Danfe";
+            this.btEditarDanfe.Text = "Editar DANFE";
             this.btEditarDanfe.UseVisualStyleBackColor = true;
             this.btEditarDanfe.Click += new System.EventHandler(this.btEditarDanfe_Click);
             // 
@@ -481,7 +481,7 @@
             this.btPreverDanfe.Name = "btPreverDanfe";
             this.btPreverDanfe.Size = new System.Drawing.Size(120, 23);
             this.btPreverDanfe.TabIndex = 2;
-            this.btPreverDanfe.Text = "Prever Danfe";
+            this.btPreverDanfe.Text = "Prever DANFE";
             this.btPreverDanfe.UseVisualStyleBackColor = true;
             this.btPreverDanfe.Click += new System.EventHandler(this.btPreverDanfe_Click);
             // 
