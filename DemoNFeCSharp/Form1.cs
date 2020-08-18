@@ -386,5 +386,53 @@ namespace DemoNFeCSharp
                 edtNumProt.Text = LerTagXML(mmXml.Text, "<nProt", 20);
             }
         }
+
+        private void btPreverDanfe_Click(object sender, EventArgs e)
+        {
+            if (mmXml.Text != "")
+            {
+                spdNFe.PreverDanfe(mmXml.Text, "");
+            }
+        }
+
+        private void btEditarDanfe_Click(object sender, EventArgs e)
+        {
+            if (mmXml.Text != "")
+            {
+                spdNFe.EditarModeloDanfe("1", mmXml.Text, "");
+            }
+        }
+
+        private void btVisualizarDanfe_Click(object sender, EventArgs e)
+        {
+            if (mmXml.Text != "")
+            {
+                spdNFe.VisualizarDanfe("1", mmXml.Text, "");
+            }
+        }
+
+        private void btImprimirDanfe_Click(object sender, EventArgs e)
+        {
+            if (mmXml.Text != "")
+            {
+                spdNFe.ImprimirDanfe("1", mmXml.Text, "", "");
+            }
+        }
+
+        private void btExportarPDF_Click(object sender, EventArgs e)
+        {
+            if (mmXml.Text != "")
+            {
+                spdNFe.ExportarDanfe("1", mmXml.Text, "", 1, "");
+            }
+        }
+
+        private void btEnviarEmail_Click(object sender, EventArgs e)
+        {
+            if (edtID.Text != "")
+            {
+                spdNFe.EnviarNotaDestinatario(edtID.Text, "", "");
+            }
+        }
     }
 }

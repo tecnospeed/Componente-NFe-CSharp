@@ -433,6 +433,7 @@
             this.btEnviarEmail.TabIndex = 7;
             this.btEnviarEmail.Text = "Enviar Email";
             this.btEnviarEmail.UseVisualStyleBackColor = true;
+            this.btEnviarEmail.Click += new System.EventHandler(this.btEnviarEmail_Click);
             // 
             // btExportarPDF
             // 
@@ -442,6 +443,7 @@
             this.btExportarPDF.TabIndex = 6;
             this.btExportarPDF.Text = "Exportar PDF";
             this.btExportarPDF.UseVisualStyleBackColor = true;
+            this.btExportarPDF.Click += new System.EventHandler(this.btExportarPDF_Click);
             // 
             // btImprimirDanfe
             // 
@@ -451,6 +453,7 @@
             this.btImprimirDanfe.TabIndex = 5;
             this.btImprimirDanfe.Text = "Imprimir Danfe";
             this.btImprimirDanfe.UseVisualStyleBackColor = true;
+            this.btImprimirDanfe.Click += new System.EventHandler(this.btImprimirDanfe_Click);
             // 
             // btVisualizarDanfe
             // 
@@ -460,6 +463,7 @@
             this.btVisualizarDanfe.TabIndex = 4;
             this.btVisualizarDanfe.Text = "Visualizar Danfe";
             this.btVisualizarDanfe.UseVisualStyleBackColor = true;
+            this.btVisualizarDanfe.Click += new System.EventHandler(this.btVisualizarDanfe_Click);
             // 
             // btEditarDanfe
             // 
@@ -469,6 +473,7 @@
             this.btEditarDanfe.TabIndex = 3;
             this.btEditarDanfe.Text = "Editar Danfe";
             this.btEditarDanfe.UseVisualStyleBackColor = true;
+            this.btEditarDanfe.Click += new System.EventHandler(this.btEditarDanfe_Click);
             // 
             // btPreverDanfe
             // 
@@ -478,6 +483,7 @@
             this.btPreverDanfe.TabIndex = 2;
             this.btPreverDanfe.Text = "Prever Danfe";
             this.btPreverDanfe.UseVisualStyleBackColor = true;
+            this.btPreverDanfe.Click += new System.EventHandler(this.btPreverDanfe_Click);
             // 
             // mmXml
             // 
@@ -495,6 +501,7 @@
             this.Controls.Add(this.mmXml);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Demonstração NFe";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
